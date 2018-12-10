@@ -45,10 +45,6 @@
             @Override
             public void downloadProgress(long currentSize, long totalSize, float progress, long networkSpeed) {
                 super.downloadProgress(currentSize, totalSize, progress, networkSpeed);
-//                logger.e("totalSize: "+totalSize+" currentSize:"+currentSize+" progress:"+progress+" //networkSpeed:"+networkSpeed);
-//                Log.i("downfile当前下载的进度", progress + "");
-                int pb = (int) (progress * 100);
-
             }
         };
         HttpBean bean = new HttpBean();
