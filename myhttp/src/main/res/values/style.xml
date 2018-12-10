@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 使用默认的黑暗程度0.6 -->
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题，设置的是decorview的背景色 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>
